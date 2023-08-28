@@ -1,0 +1,9 @@
+Server:
+  RunMode: debug
+  HttpPort: 8006
+App:
+  LoggerFileName: storage/logs/app.log
+  LoggerLevel: debug
+  LoggerMaxSize: 5    # 每个日志文件最大尺寸，单位 MB
+  LoggerMaxBackups: 3 # 最多保留的旧日志文件数
+  LoggerMaxAge: 7     # 保留最近的几天日志文件
