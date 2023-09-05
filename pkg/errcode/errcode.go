@@ -1,7 +1,7 @@
 package errcode
 
 var (
-	Success           = NewCode(0, "成功")
+	Success           = NewCode(200, "成功")
 	ServerError       = NewCode(10000, "服务内部错误")
 	InvalidParams     = NewCode(10001, "入参错误")
 	UnauthorizedToken = NewCode(10002, "鉴权失败")
